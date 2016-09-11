@@ -40,6 +40,12 @@ public abstract class Command {
      * Executes the command and returns the result.
      */
     public abstract CommandResult execute();
+    
+    /**
+     * Checks for mutation of data by commands
+     * @return true for commands that mutates data
+     */
+    public abstract boolean isMutating();
 
     /**
      * Supplies the data the command will operate on.

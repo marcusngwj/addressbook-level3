@@ -111,6 +111,8 @@ User case ends.
 2. Should be able to hold up to 1000 persons.
 3. Should come with automated unit tests and open source code.
 4. Should favor DOS style commands over Unix-style commands.
+5. Should be a portable application
+6. Should have a user-friendly GUI
 
 ## Appendix D : Glossary
 
@@ -121,3 +123,7 @@ User case ends.
 ##### Private contact detail
 
 > A contact detail that is not meant to be shared with others
+
+#### Portable application
+
+> A program designed to run on a compatible computer without being installed leaving the computer's configuration information intact
